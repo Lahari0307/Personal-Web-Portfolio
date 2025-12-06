@@ -1,0 +1,135 @@
+/* Body & global styles */
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
+  color: white;
+}
+
+.app {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid cyan;
+  box-shadow: 0 0 20px cyan;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  color: cyan;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  opacity: 0.85;
+  margin: 5px 0 15px;
+}
+
+/* Buttons */
+.hero-buttons a {
+  display: inline-block;
+  margin: 5px 10px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  background: cyan;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero-buttons a:hover {
+  background: #00ffffcc;
+  transform: scale(1.05);
+}
+
+/* Sections */
+section {
+  margin-top: 50px;
+  padding: 25px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #e95a1c;
+}
+
+/* Skills Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.grid div {
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(0, 255, 255, 0.15);
+  border: 1px solid cyan;
+  transition: 0.3s;
+}
+
+.grid div:hover {
+  transform: scale(1.08);
+  background: cyan;
+  color: black;
+}
+
+/* Project Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 0 20px cyan;
+}
+.github-link {
+  color: #f0db4f; /* yellow color for GitHub */
+  text-decoration: none;
+}
+
+.github-link:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+.linkedin-link {
+  color: #49bfc7; /* LinkedIn blue */
+  text-decoration: none;
+}
+
+.linkedin-link:hover {
+  color: #32d6dc;
+  text-decoration: underline;
+}
