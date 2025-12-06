@@ -102,20 +102,42 @@ h2 {
   gap: 20px;
 }
 
+/* Default card styles */
 .card {
   padding: 20px;
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(0, 255, 255, 0.4);
   transition: 0.3s;
+  font-weight: bold;
+  text-decoration: none;
 }
 
+/* Unique colors for each project */
+.card.secret { color: #ff4d6d; }
+.card.secret:hover { color: #ff9a76; }
+
+.card.crypto { color: #00ff7f; }
+.card.crypto:hover { color: #00ffaa; }
+
+.card.expense { color: #ffd700; }
+.card.expense:hover { color: #fff44f; }
+
+.card.connect4 { color: #ff69b4; }
+.card.connect4:hover { color: #ff85c1; }
+
+.card.portfolio { color: #00d4ff; }
+.card.portfolio:hover { color: #0099cc; }
+
+/* Hover effect for all cards */
 .card:hover {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 0 20px cyan;
 }
+
+/* GitHub & LinkedIn links */
 .github-link {
-  color: #f0db4f; /* yellow color for GitHub */
+  color: #f0db4f; /* yellow */
   text-decoration: none;
 }
 
