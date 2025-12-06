@@ -88,7 +88,7 @@ export default function App() {
             className="card portfolio"
             onClick={() => window.open("https://personal-web-portfolio-nine.vercel.app/", "_blank", "noopener,noreferrer")}
           >
-            Personal Portfolio (Live)
+            Personal Portfolio 
           </div>
 
         </div>
