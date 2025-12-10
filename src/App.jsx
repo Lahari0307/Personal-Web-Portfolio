@@ -141,7 +141,7 @@ export default function App() {
 
     <div className="project-card">
       <h3>Secret Number Game</h3>
-      <button onClick={() => window.open("https://github.com/Lahari0307/Secret_Number_Game.git")}>
+      <button onClick={() => window.open("https://secret-number-game-nu-dusky.vercel.app/")}>
         View Project
       </button>
     </div>
