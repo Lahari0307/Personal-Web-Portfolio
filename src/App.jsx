@@ -48,6 +48,23 @@ export default function App() {
 
     <div className="hero-buttons">
 <a href="#contact" className="hire-btn">Hire Me</a>
+{/* Resume download */}
+  <a 
+    href="/resume.pdf" 
+    download 
+    className="resume-btn"
+  >
+    Download Resume
+  </a>
+
+  {/* GitHub profile */}
+  <a 
+    href="https://github.com/Lahari0307" 
+    target="_blank" 
+    className="github-btn"
+  >
+    My GitHub
+  </a>
     </div>
   </div>
 

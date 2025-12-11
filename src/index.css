@@ -692,3 +692,21 @@ body {
   letter-spacing: 1px;
   cursor: pointer;
 }
+.resume-btn, .github-btn {
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  background: #ffbf00;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.github-btn {
+  background: #24292e; /* GitHub black */
+  color: white;
+}
+
+.resume-btn:hover, .github-btn:hover {
+  transform: scale(1.07);
+}
